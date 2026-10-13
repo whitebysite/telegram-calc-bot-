@@ -11,12 +11,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # စျေးနှုန်း Menu ခလုတ်များ ဖန်တီးခြင်း
     keyboard = [
         [
-            InlineKeyboardButton("A - ၁၀၀ ကျပ်", callback_data='price_A'),
-            InlineKeyboardButton("B - ၁၀၀ ကျပ်", callback_data='price_B')
+            InlineKeyboardButton("telegram - 3000 ks", callback_data='price_A'),
+            InlineKeyboardButton("Wechat - 30000 ks", callback_data='price_B')
         ],
         [
-            InlineKeyboardButton("C - ၁၀၀ ကျပ်", callback_data='price_C'),
-            InlineKeyboardButton("D - ၁၀၀ ကျပ်", callback_data='price_D')
+            InlineKeyboardButton("Viber - 1000 ka", callback_data='price_C'),
+            InlineKeyboardButton("Whatapp - 3000 ks", callback_data='price_D')
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
