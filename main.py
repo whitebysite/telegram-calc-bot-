@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Cal
 # Telegram Bot Token
 TOKEN = os.getenv("BOT_TOKEN", "8715110098:AAFBKfysEeaLh94HOu13xEH6t7RBjN6F9XE")
 
-# /start command - နှိပ်ရင် Menu ခလုတ်များ ပေါ်လာမည်
+# /start command - နှိပ်ရင် Menu ခလုတ်များ ပေါ်လာပါမည်
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # စျေးနှုန်း Menu ခလုတ်များ ဖန်တီးခြင်း
     keyboard = [
